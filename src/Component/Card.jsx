@@ -1,15 +1,17 @@
 import Photo from "./Photo";
 import Title from "./Title";
 import Description from "./Description";
-import Button from "./Button";
+import Link from "./Link";
+import './Style.css';
 
-function Card(props){
+
+function Card({photo, title, description, link}){
     return(
-        <div>
-            <Photo photo={props.photo}/>
-            <Title title={props.title}/>
-            <Description description={props.description}/>
-            <Button button={props.button}/>
+        <div className="Card">
+            <Photo photo={photo}/>
+            <Title title={title}/>
+            <Description description={description}/>
+            <Link link={link}/>
         </div>
     )
 }

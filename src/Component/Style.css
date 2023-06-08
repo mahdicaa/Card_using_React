@@ -1,0 +1,47 @@
+.Card {
+  height: auto;
+  width: 450px;
+  /* background-color: rgb(126, 124, 124); */
+  box-shadow: 0.3px 1px 28.6px rgba(0, 0, 0, 0.02),
+    0.6px 2px 43.1px rgba(0, 0, 0, 0.03),
+    0.9px 3.1px 51.6px rgba(0, 0, 0, 0.037),
+    1.4px 4.5px 57.1px rgba(0, 0, 0, 0.043),
+    2.1px 6.8px 61.1px rgba(0, 0, 0, 0.049),
+    3.6px 11.6px 65px rgba(0, 0, 0, 0.054),
+    6.8px 22.1px 70.5px rgba(0, 0, 0, 0.061),
+    12.9px 41.7px 80.7px rgba(0, 0, 0, 0.07),
+    21px 68px 113px rgba(0, 0, 0, 0.09);
+  margin: 150px auto;
+  border-radius: 30px;
+}
+.Photo {
+  width: 100%;
+}
+.Title {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 1.8rem;
+  padding: 15px 0px 10px 20px;
+}
+.Description {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 1.1rem;
+  padding: 0px 20px 10px 20px;
+  color: #6b6b6b;
+}
+.Card__link-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  padding: 15px;
+}
+.Card__link {
+  font-size: 1.4rem;
+  text-decoration: none;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #5050ff;
+}
