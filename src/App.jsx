@@ -6,7 +6,7 @@ function App() {
 
   return (
     <div>
-      <Card />
+      <Card photo="Photo" title="Title" description="Description" button="Button"/>
     </div>
   )
 }
