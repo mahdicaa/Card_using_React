@@ -1,6 +1,6 @@
 function Title({title}) {
   return (
-  <div className="Title">
+  <div className="Card__title">
     {title}
     </div>
     );

@@ -12,18 +12,19 @@
     12.9px 41.7px 80.7px rgba(0, 0, 0, 0.07),
     21px 68px 113px rgba(0, 0, 0, 0.09);
   margin: 150px auto;
-  border-radius: 30px;
+  border-radius: 12px;
+  overflow: hidden;
 }
-.Photo {
+.Card__photo {
   width: 100%;
 }
-.Title {
+.Card__title {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-size: 1.8rem;
   padding: 15px 0px 10px 20px;
 }
-.Description {
+.Card__description {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-size: 1.1rem;

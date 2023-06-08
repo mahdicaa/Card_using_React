@@ -1,6 +1,6 @@
 function Description({ description }) {
   return (
-    <div className="Description">
+    <div className="Card__description">
       <p>{description}</p>
     </div>
   );
